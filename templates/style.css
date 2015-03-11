@@ -1,0 +1,15 @@
+body {
+	padding: 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+  font:'Open Sans', sans-serif;
+	text-align: center;
+  /*background-image: url("knot.jpg");*/
+  background-repeat: repeat;
+}
+
+#footer{
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
