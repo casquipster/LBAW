@@ -1,4 +1,4 @@
-# LBAW
+# LBAW - Tema 11: Gestão de Inventário e Requisições
 
 Apresentação do Projeto
 
