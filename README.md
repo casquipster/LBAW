@@ -28,6 +28,7 @@ A gestão de reservas e requisições feitas pelos utilizadores requererá funç
 - devolução de equipamento reservado para uso ou reparação
 
 
+
 _Projeto desenvolvido no âmbito da unidade curricular Laboratório de Base de Dados e Aplicações Web_.
 
 _3º ano, 2º Semestre - Mestrado Integrado em Engenharia Informática e Computação, Faculdade de Engenharia da Universidade do Porto_
