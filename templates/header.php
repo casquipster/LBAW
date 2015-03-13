@@ -5,8 +5,8 @@
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> <!-- for jquery-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />-->
+  <link rel="stylesheet" href="templates/style.css" type="text/css">
   <meta charset = "UTF-8">
 </head>
 
@@ -14,7 +14,7 @@
 <div class = "navbar navbar-inverse navbar-static-top">
     <div class= "container">
 			<a href="index.php" class="navbar-brand">
-				<div class="img"><img src="images\logo.png" width="105" height="90"></div></a>
+				<div class="img"><img src="templates/images/logo.png" width="105" height="90"></div></a>
       <button class ="navbar-toggle" data-toggle ="collapse" data-target =".navHeaderCollapse">
         <span class ="icon-bar"></span>
         <span class ="icon-bar"></span>
