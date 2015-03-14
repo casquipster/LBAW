@@ -22,14 +22,14 @@ h4 {
   color: grey;
 }
 
-.jumbotron {
+#j1 {
   margin-top: 30%;
   color: white;
   background: rgb(255, 255, 255); 
   background: rgba(255, 255, 255, 0); 
 }
 
-.jumbotron h1 {
+#j1 h1 {
   color: white;
   font-family: Lobster;
   font-size: 600%;

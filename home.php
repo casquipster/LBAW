@@ -13,15 +13,13 @@
 
 <style>
 body {
-  
   background-image: url("templates/images/background.jpg");
   background-color: #cccccc;
-
 }
 </style>
 <body>
   <div class="container">
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center" id="j1">
       <h1>Welcome to Stockr!</h1>
       <a id="inicialBtn" href="index.php" class="btn btn-default">Get Started</a>
     <div>
