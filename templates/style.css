@@ -2,7 +2,6 @@ body {
 	padding: 0px 0px;
 	font-family: "Century Gothic";
 	text-align: center;
-  /*background-image: url("knot.jpg");*/
   background-repeat: repeat;
 }
 
@@ -18,6 +17,24 @@ div.img img {
 
 h4 {
   color: grey;
+}
+
+.jumbotron {
+  margin-top: 510px;
+  color: white;
+  background: rgb(255, 255, 255); 
+  background: rgba(255, 255, 255, 0); 
+}
+
+.jumbotron h1 {
+  color: white;
+  font-family: Lobster;
+  font-size: 600%;
+}
+
+#inicialBtn{
+  font-family: Lobster;
+  font-weight: 100%;
 }
 
 #footer{
