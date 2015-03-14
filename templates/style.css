@@ -2,7 +2,10 @@ body {
 	padding: 0px 0px;
 	font-family: "Century Gothic";
 	text-align: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:top-left;
+  background-size: 100%;
 }
 
 div.img img {
@@ -20,7 +23,7 @@ h4 {
 }
 
 .jumbotron {
-  margin-top: 350px;
+  margin-top: 30%;
   color: white;
   background: rgb(255, 255, 255); 
   background: rgba(255, 255, 255, 0); 

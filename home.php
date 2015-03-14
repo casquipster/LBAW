@@ -13,9 +13,10 @@
 
 <style>
 body {
-  display: center;
+  
   background-image: url("templates/images/background.jpg");
   background-color: #cccccc;
+
 }
 </style>
 <body>
