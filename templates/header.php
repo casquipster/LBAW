@@ -8,6 +8,8 @@
   <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />-->
   <link rel="stylesheet" href="templates/style.css" type="text/css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+  <!-- Custom style for footer -->
+  <link rel="stylesheet" href="stick-footer-navbar.css">
   <meta charset = "UTF-8">
 </head>
 
@@ -43,7 +45,7 @@
 						<a href="about_body.php">About</a>
 					</li>
 					<li>
-						<a href="help_body.php">Help</a>
+						<a href="help_body.php">Contact us</a>
 					</li>
 
 					<?php  session_start();
@@ -54,7 +56,7 @@
 
 						<?php } else{ ?>
 							<li>
-								<a href="login.php">Login</a>
+								<a href="login_body.php">Login</a>
 							</li>
 							<li>
 								<a href="register_body.php">Register</a>
