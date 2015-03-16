@@ -61,7 +61,7 @@
                       </div>
                     </div>
                     <div>
-						<h3 class="dark-grey">Terms and Conditions</h3>
+						<h3 id="termscond" class="dark-grey">Terms and Conditions</h3>
 							<p>
 								By clicking on "Register" you agree to Stockr's Terms and Conditions
 							</p>
@@ -76,7 +76,7 @@
 							Acceptance of an order by us is dependent on our suppliers ability to provide the product. 
 						</p>
                     <div class="form-group">
-                      <input type="submit" class="btn btn-lg btn-primary btn-block" value="Register">
+                      <input id="registerBtn" type="submit" class="btn btn-lg btn-primary btn-block" value="Register">
                     </div>
                   </div>
                 </div>
