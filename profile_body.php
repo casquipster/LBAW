@@ -48,7 +48,7 @@
               </div>
             </div>
                  <div class="panel-footer">
-                            <a data-original-title="Message User" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i>Message User</a>
+                            <a data-original-title="Message User" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i> Message User</a>
                     </div>
             
           </div>
