@@ -143,24 +143,14 @@
 									</ul>
 								</div>
 							</div>
-						</div>						<div class="col-sm-4">
-							<div class="panel panel-default">
-								<div class="item">
-									<div class="productinfo text-center">
-										<img src="templates/images/sample.jpg" alt="" />
-										<h2>x euros</h2>
-										<p>artigo xpto</p>
-										<a href="#" class="btn btn-default">More Info</a>
-									</div>
-								</div>
-								<div class="choose">
-									<ul class="nav nav-pills nav-justified">
-										<li><a href="">Request Use (Buy/Rent)</a></li>
-										<li><a href="">Make Reservation</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
+						</div>	
+
+                        <ul class="pagination">
+							<li class="active"><a href="">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">&raquo;</a></li>
+						</ul>					
 					</div><!--inventory-->
 				</div>
 			</div>
