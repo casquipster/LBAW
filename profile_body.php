@@ -48,7 +48,9 @@
               </div>
             </div>
                  <div class="panel-footer">
-                            <a data-original-title="Message User" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i> Message User</a>
+                            <a data-original-title="Message User" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i> Message User </a>
+                            <a data-original-title="Edit Profile" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-pencil"></i> Edit Profile </a>
+                            <a data-original-title="History" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-list-alt"></i> History </a> 
                     </div>
             
           </div>

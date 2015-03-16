@@ -2,10 +2,12 @@
 <section>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 					<div class="left-sidebar">
                         <a href="inventory_body.php" class="btn btn-default">Inventory</a>
                         <a href="profile_body.php" class="btn btn-default">Profile</a>
+                        <a href="item_body.php" class="btn btn-default">item example</a>
+                        <a href="admin_panel_body.php" class="btn btn-default">admin panel</a>
 					</div>
 				</div>
             </div>

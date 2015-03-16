@@ -43,7 +43,7 @@
 						<a href="about_body.php">About</a>
 					</li>
 					<li>
-						<a href="help_body.php">Contact us</a>
+						<a href="contact_us_body.php">Contact us</a>
 					</li>
 
 					<?php  session_start();
