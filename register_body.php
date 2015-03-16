@@ -76,7 +76,7 @@
 							Acceptance of an order by us is dependent on our suppliers ability to provide the product. 
 						</p>
                     <div class="form-group">
-                      <input id="registerBtn" type="submit" class="btn btn-lg btn-primary btn-block" value="Register">
+                      <input type="submit" class="btn btn-lg btn-primary btn-block" value="Register">
                     </div>
                   </div>
                 </div>
