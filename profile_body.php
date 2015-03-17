@@ -5,7 +5,7 @@
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Gajo</h3>
+              <h3 class="panel-title">João António Custódio Soares</h3>
             </div>
             <div class="panel-body">
               <div class="row">
@@ -16,11 +16,11 @@
                     <tbody>
                       <tr>
                         <td>Username:</td>
-                        <td>supergajo69</td>
+                        <td>masteradmin</td>
                       </tr>
                       <tr>
                         <td>Date of Birth</td>
-                        <td>01/24/1988</td>
+                        <td>03/01/1995</td>
                       </tr>
                    
                          <tr>
@@ -30,7 +30,7 @@
                       </tr>
                         <tr>
                         <td>Home Address</td>
-                        <td>Rua Dr.Roberto Frias</td>
+                        <td>Rua Dr.Roberto Frias s/nº</td>
                       </tr>
                       <tr>
                         <td>Email</td>
