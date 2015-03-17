@@ -121,5 +121,5 @@
                     </div>
                 </div><!--/recommended_items-->
 <br/><br/><br/><br/>
-<h2 class="title text-center">Not yet a member? <a href="http://gnomo.fe.up.pt/~ei12036/LBAW/register_body.php">Signup now!</a></h2>
+<h2 class="title text-center">Not yet a member? <a href="register_body.php">Signup now!</a></h2>
 <?php include_once('templates/footer.php'); ?>
