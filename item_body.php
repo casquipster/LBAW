@@ -1,4 +1,6 @@
 <?php include_once('templates/header.php'); ?>
+<?php include_once('modals.php'); ?>
+
 <section id="item" class="panel panel-default">
     <div class="container">
 
@@ -16,9 +18,9 @@
                             <p> informação genérica sobre um produto que ninguém quer saber</p>
                         </div>
                     <div class="options">
-                        <a href="#" class="btn btn-default">Buy Now!</a>
-                        <a href="#" class="btn btn-default">Request Use!</a>
-                        <a href="#" class="btn btn-default">Make Reservation!</a>
+                        <a class="btn btn-default" data-toggle="modal" data-target="#buyModal">Buy Now!</a>
+                        <a class="btn btn-default" data-toggle="modal" data-target="#useModal">Request Use!</a>
+                        <a class="btn btn-default" data-toggle="modal" data-target="#reservationModal">Make Reservation</a>
                         <a href="#" class="btn btn-default">Edit/Delete Item</a>
                           
                     </div>
@@ -38,7 +40,7 @@
                     <div class="well">
 
                         <div class="text-right">
-                            <a class="btn btn-success">Leave a Review</a>
+                            <a class="btn btn-success" data-toggle="modal" data-target="#reviewModal">Leave a Review</a>
                         </div>
 
                         <hr>
@@ -95,4 +97,6 @@
         </div>
         <!-- /.container -->
 </section>
+
+
 <?php include_once('templates/footer.php'); ?>
