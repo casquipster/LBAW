@@ -13,6 +13,9 @@
             </div>
         </div>
 </section>
+<br/>
+<br/>
+<br/>
 <div class="recommended_items"><!--recommended_items-->
                     <h2 class="title text-center">Recommended items</h2>
                         <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
@@ -117,4 +120,6 @@
                             </a>
                     </div>
                 </div><!--/recommended_items-->
+<br/><br/><br/><br/>
+<h2 class="title text-center">Not yet a member? <a href="http://gnomo.fe.up.pt/~ei12036/LBAW/register_body.php">Signup now!</a></h2>
 <?php include_once('templates/footer.php'); ?>
