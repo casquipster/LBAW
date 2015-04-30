@@ -10,8 +10,8 @@ body {
 
 div.img img {
   display: inline;
-  margin: -50px;
-  margin-left: 1px;
+  /*margin: -50px;
+  margin-left: 1px;*/
 }
 
 #searchData{
