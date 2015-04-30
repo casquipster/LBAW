@@ -8,7 +8,7 @@
             <strong> Registration</strong>
           </div>
            <div class="panel-body">
-            <form role="form" action="{$BASE_DIR}actions/users/register.php" method="post" enctype="multipart/form-data">
+            <form role="form" action="../../actions/users/register.php" method="post" enctype="multipart/form-data">
               <fieldset>
                 <div class="row">
                   <div class="col-sm-12 col-md-10  col-md-offset-1 ">
