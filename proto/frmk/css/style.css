@@ -1,152 +1,105 @@
-html {
-  background-color: #B8ECEF;  
-}
-
 body {
-  width: 40em;
-  margin: auto;
-  background-color: white;
+	padding: 0px 0px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:top-left;
+  background-size: 100%;
 }
 
-/* HEADER */
-
-header {
-  background-color: #333;
-  padding: 10px;
+div.img img {
+  display: inline;
+ /* margin: -50px;
+  margin-left: 1px;*/
 }
 
-header a {
-  text-decoration: none;
-  color: white;  
-}
-
-header h1 {
-  margin: 0;
-}
-
-header form {
-  display:inline; 
-  float: right;
-}
-
-header input[type=text], 
-header input[type=password] {
-  width: 100px;
-}
-
-header .username {
-  color: cyan;
-}
-
-/* TWEET FORM */
-
-#tweet_form {
-  background-color: #666;
-  padding: 5px;
-}
-
-#tweet_form textarea{
-  width: 40em;
-  margin: 5px;
-  border: none;
-}
-
-#tweet_form input {
-  display: block;
-  background-color: #fff;
-  border: none;
-  margin: 5px;
-}
-
-/* CONTENT */
-
-section {
-  padding: 10px 20px;
-}
-
-section h2 {
-  margin: 5px 0;
-}
-
-/* TWEET  */
-
-.tweet-data {
-  position: relative;
-  padding: 10px 0;
-  border-bottom: 1px solid #999;
-  min-height: 64px;
-}
-
-.tweet-data .realname {
-  font-weight: bold;
-}
-
-.tweet-data .username {
-  color: #666;
-}
-
-.tweet-data .time {
-  position: absolute;
-  right: 0;
-}
-
-.tweet-data .tweet-text {
+#searchData{
   margin-top: 5px;
 }
 
-.tweet-data img{
-  width: 64px;
-  height: 64px;
-  float: left;
-  margin-right: 10px;
+h4 {
+  color: grey;
 }
 
-#new_tweets {
-  display: none;
-  background-color: #B8ECEF;
-  text-align: center;
-  padding: 10px;
-  color: #333;
+#j1 {
+  margin-top: 30%;
+  color: white;
+  background: rgb(255, 255, 255); 
+  background: rgba(255, 255, 255, 0); 
 }
 
-#new_tweets a{
-  color: blue;
-  text-decoration: none;
+#j1 h1 {
+  color: white;
+  font-family: Lobster;
+  font-size: 600%;
 }
 
-
-/* FORM */
-
-label {
-  display: block;  
-}
-
-/* MESSAGES */
-
-.error {
-  background-color: #FFAAAA;
-  padding: 10px;
-  color: #333;
-  font-weight: bold;
-}
-
-.success {
-  background-color: #AAFFAA;
-  padding: 10px;
-  color: #333;
-  font-weight: bold;
-}
-
-.close {
-  float: right;
-  text-decoration: none;
-  color: #666;
-}
-
-.field_error {
-  color: red;
-  font-size: 70%;
+#inicialBtn{
+  font-family: Lobster;
+  font-weight: 100%;
 }
 
 
+.btn {
+  font-family: Lobster;
+}
 
+#termscond {
+  font-family: Lobster;
+}
+
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+
+.toppad {
+  margin-top:20px;
+}
+
+#contactus {
+  font-family: Lobster;
+}
+
+#cuh3 {
+  font-family: Lobster;
+}
+
+#aboutus {
+  font-family: Lobster;
+}
+
+#auh3 {
+  font-family: Lobster;
+}
+
+.team-member h4 {
+    font-family: Lobster;
+}

@@ -17,7 +17,7 @@
       {/if}
     </header>
     {if $USERNAME}
-    Hello, {echo $USERNAME}
+    Hello, {$USERNAME}
     {/if}
     <div id="error_messages">
     {foreach $ERROR_MESSAGES as $error}

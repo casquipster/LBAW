@@ -1,4 +1,30 @@
-{include file='header.tpl'}
+<?php /* Smarty version Smarty-3.1.15, created on 2015-04-30 02:56:36
+         compiled from "/opt/lbaw/lbaw1464/public_html/frmk/templates/users/register.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:737176119553fe7bb443637-00926684%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '913321f61032e9625534df09222d460bf93182aa' => 
+    array (
+      0 => '/opt/lbaw/lbaw1464/public_html/frmk/templates/users/register.tpl',
+      1 => 1430355344,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '737176119553fe7bb443637-00926684',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_553fe7bb520732_25979656',
+  'variables' => 
+  array (
+    'BASE_DIR' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_553fe7bb520732_25979656')) {function content_553fe7bb520732_25979656($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 
 <div class="container" style="margin-top:40px">
    <div class="row">
@@ -8,7 +34,8 @@
             <strong> Registration</strong>
           </div>
            <div class="panel-body">
-            <form role="form" action="{$BASE_DIR}actions/users/register.php" method="post" enctype="multipart/form-data">
+            <form role="form" action="<?php echo $_smarty_tpl->tpl_vars['BASE_DIR']->value;?>
+actions/users/register.php" method="post" enctype="multipart/form-data">
               <fieldset>
                 <div class="row">
                   <div class="col-sm-12 col-md-10  col-md-offset-1 ">
@@ -102,4 +129,6 @@
     </div>
   </div>
 
-{include file='common/footer.tpl'}
+<?php echo $_smarty_tpl->getSubTemplate ('common/footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<?php }} ?>
