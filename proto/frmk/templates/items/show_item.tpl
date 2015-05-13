@@ -1,5 +1,4 @@
-<?php include_once('templates/header.php'); ?>
-<?php include_once('modals.php'); ?>
+
 
 <section id="item" >
     <div class="container">
@@ -12,7 +11,7 @@
                         <img class="img-responsive" src="uploads/finos.png" alt="">
                         <div class="caption-full">
                             <h4 class="pull-right">500€</h4>
-                            <h4><a href="#">Pressurized Fluid/Liquid Distributor</a>
+                            <h4><a href="#">Pressurized Fluid/Liquid Distributor</a></h4>
                             <h4><a href="#">77/100 in stock <span class="glyphicon glyphicon-ok"></span></a>
                             </h4>
                             <p> Product intended for usage in bar-like scenarios</p>
@@ -101,6 +100,3 @@
         </div>
         <!-- /.container -->
 </section>
-
-
-<?php include_once('templates/footer.php'); ?>
