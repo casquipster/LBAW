@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2015-04-30 02:56:36
+<?php /* Smarty version Smarty-3.1.15, created on 2015-05-12 20:16:31
          compiled from "/opt/lbaw/lbaw1464/public_html/frmk/templates/users/register.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:737176119553fe7bb443637-00926684%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '913321f61032e9625534df09222d460bf93182aa' => 
     array (
       0 => '/opt/lbaw/lbaw1464/public_html/frmk/templates/users/register.tpl',
-      1 => 1430355344,
+      1 => 1431454589,
       2 => 'file',
     ),
   ),
@@ -17,10 +17,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'version' => 'Smarty-3.1.15',
   'unifunc' => 'content_553fe7bb520732_25979656',
-  'variables' => 
-  array (
-    'BASE_DIR' => 0,
-  ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_553fe7bb520732_25979656')) {function content_553fe7bb520732_25979656($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
@@ -34,8 +30,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <strong> Registration</strong>
           </div>
            <div class="panel-body">
-            <form role="form" action="<?php echo $_smarty_tpl->tpl_vars['BASE_DIR']->value;?>
-actions/users/register.php" method="post" enctype="multipart/form-data">
+            <form role="form" action="../../actions/users/register.php" method="post" enctype="multipart/form-data">
               <fieldset>
                 <div class="row">
                   <div class="col-sm-12 col-md-10  col-md-offset-1 ">
@@ -103,6 +98,29 @@ actions/users/register.php" method="post" enctype="multipart/form-data">
                         <input class="form-control" placeholder="Date of Birth" name="birthday" type="date" autofocus>
                       </div>
                     </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        Gender
+                        <div class="radio">
+                        <label><input name="gender" type="radio" value="m" autofocus>Male</label>
+                        </div>
+                        <div class="radio">
+                        <label><input name="gender" type="radio" value="f" autofocus>Female</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                      Type of registration
+                      <div class="radio">
+                        <label><input name="type" type="radio" value="0" autofocus>Client</label>
+                        </div>
+                        <div class="radio">
+                        <label><input name="type" type="radio" value="1" autofocus>Administrator</label>
+                        </div>
+                      </div>
+                    </div>
+
                     <div>
             <h3 id="termscond" class="dark-grey">Terms and Conditions</h3>
               <p>
