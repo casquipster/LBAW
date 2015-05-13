@@ -76,6 +76,29 @@
                         <input class="form-control" placeholder="Date of Birth" name="birthday" type="date" autofocus>
                       </div>
                     </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        Gender
+                        <div class="radio">
+                        <label><input name="gender" type="radio" value="m" autofocus>Male</label>
+                        </div>
+                        <div class="radio">
+                        <label><input name="gender" type="radio" value="f" autofocus>Female</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                      Type of registration
+                      <div class="radio">
+                        <label><input name="type" type="radio" value="0" autofocus>Client</label>
+                        </div>
+                        <div class="radio">
+                        <label><input name="type" type="radio" value="1" autofocus>Administrator</label>
+                        </div>
+                      </div>
+                    </div>
+
                     <div>
             <h3 id="termscond" class="dark-grey">Terms and Conditions</h3>
               <p>
