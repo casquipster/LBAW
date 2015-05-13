@@ -13,7 +13,7 @@
 	}
 	function getItemByID($id){
 		global $conn;
-    	$stmt = $conn->prepare("SELECT * FROM ItemType WHERE itemTypeID= $id");
+    	$stmt = $conn->prepare("SELECT * FROM ItemType WHERE itemTypeID = $id");
     	$stmt->execute(array($id));
     	return $stmt->fetch();
 	}
@@ -27,6 +27,13 @@
 		global $conn;
 		$stmt = $conn->prepare("SELECT * FROM ItemType WHERE category = $category");
 		$stmt->execute(array($category));
+		return $stmt->fetch();
+	}
+
+	function getItemQuantity($itemTID){
+		global $conn;
+		$stmt = $conn->prepare("SELECT COUNT(*) FROM Item WHERE itemTypeID = ? AND available = TRUE;");
+		$stmt->execute(array($itemTID));
 		return $stmt->fetch();
 	}
 ?>

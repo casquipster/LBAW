@@ -1,5 +1,3 @@
-
-
 <section id="item" >
     <div class="container">
 
@@ -10,15 +8,10 @@
                     <div class="thumbnail">
                         <img class="img-responsive" src="uploads/finos.png" alt="">
                         <div class="caption-full">
-                            <h4 class="pull-right">500€</h4>
-                            <h4><a href="#">Pressurized Fluid/Liquid Distributor</a></h4>
-                            <h4><a href="#">77/100 in stock <span class="glyphicon glyphicon-ok"></span></a>
-                            </h4>
-                            <p> Product intended for usage in bar-like scenarios</p>
-                            <p> Made by Sagres</p>
-                            <p> 50L barrel</p>
-                            <p> CO2 Gas</p>
-                            <p> Rent fee: 150€/week</p>
+                            <h4 class="pull-right"><?php echo $curItem['purchasePrice'] ?></h4>
+                            <h4><a href="#"><?php echo $curItem['name'] ?></a></h4>
+                            <h4><a href="#"><?php echo $quantity ?> in stock <span class="glyphicon glyphicon-ok"></span></a>
+                            <p> <?php echo $curItem['description'] ?></p>
                         </div>
                     <div class="options">
                         <a class="btn btn-default" data-toggle="modal" data-target="#buyModal">Buy Now!</a>

@@ -1,16 +1,17 @@
 <?php
   include_once('../../config/init.php');
-  include_once($BASE_DIR .'database/users.php');  
+  include_once($BASE_DIR .'database/items.php');  
 
-  if (!$_POST['username'] || !$_POST['password']) {
-    $_SESSION['error_messages'][] = 'Invalid login';
-    $_SESSION['form_values'] = $_POST;
+  if (!$_GET['id']) {
+    $_SESSION['error_messages'][] = 'No item was selected';
+    $_SESSION['form_values'] = $_GET;
     header('Location: ' . $_SERVER['HTTP_REFERER']);
     exit;
   }
 
-  $username = $_POST['username'];
-  $password = $_POST['password'];
+  $id = $_GET['id'];
+
+  $stmt = getItemByID($id);
   
   if (isLoginCorrect($username, $password)) {
     $_SESSION['username'] = $username;
