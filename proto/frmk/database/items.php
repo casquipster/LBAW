@@ -30,10 +30,34 @@
 		return $stmt->fetch();
 	}
 
-	function getItemQuantity($itemTID){
+	function getItemQuantity($itemID){
 		global $conn;
 		$stmt = $conn->prepare("SELECT COUNT(*) FROM Item WHERE itemTypeID = ? AND available = TRUE;");
-		$stmt->execute(array($itemTID));
+		$stmt->execute(array($itemID));
 		return $stmt->fetch();
+	}
+
+	function getItemRate($itemID){
+		global $conn;
+		$stmt = $conn->prepare("SELECT avg(rate) FROM Rate WHERE itemTypeID = ?;");
+		$stmt->execute(array($itemID));
+
+		return $stmt->fetch();
+	}
+
+	function getItemReviews($itemID){
+		global $conn;
+		$stmt = $conn->prepare("SELECT * FROM Review WHERE itemTypeID = ?;");
+		$stmt->execute(array($itemID));
+
+		return $stmt->fetch();
+	}
+
+	function getUsernameReview($reviewID){
+		global $conn;
+		$stmt = $conn->prepare("SELECT name FROM User 
+								WHERE userID = (SELECT userID FROM Review WHERE reviewID = ?);");
+		$stmt->execute(array($reviewID));
+
 	}
 ?>

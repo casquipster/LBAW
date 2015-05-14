@@ -12,6 +12,8 @@
 
   $item = getItemByID($id);
   $q = getItemQuantity($id);
+  $rate = getItemRate($id);
+  $rev = getItemReviews($id);
 
   if (is_null($item)) {
     $_SESSION['error_messages'][] = 'No item was selected'; 
@@ -21,5 +23,8 @@
   
   $smarty->assign('curItem', $item);
   $smarty->assign('quantity', $q);
+  $smarty->assign('rate', $rate);
+  $smarty->assign('reviews', $rev);
+
   $smarty->display('templates/items/show_item.tpl');
 ?>
